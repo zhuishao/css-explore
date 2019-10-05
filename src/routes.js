@@ -1,5 +1,6 @@
 export default {
   '/': 'Home',
+  '/buttonOne':'ButtonOne',
   '/buttonTwo': 'About',
   '/fontOne':'FontOne',
   '/fontTwo':'FontTwo',
@@ -8,4 +9,5 @@ export default {
   '/rotate':'Rotate',
   '/progress':'progress',
   '/triangleMove':'triangleMove',
+  '/backgroundTwo':'BackgroundTwo',
 }

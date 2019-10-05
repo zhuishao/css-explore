@@ -2,7 +2,10 @@
   <div class="container">
     <ul style="position: fixed; width: 256px;">
       <li>
-        <v-link href="/" accesskey="1">Button-1</v-link>
+        <v-link href="/" accesskey="`">简介</v-link>
+      </li>
+      <li>
+        <v-link href="/buttonOne" accesskey="1">Button-1</v-link>
       </li>
       <li>
         <v-link href="/buttonTwo" accesskey="2">Button-2</v-link>
@@ -14,12 +17,15 @@
         <v-link href="/fontTwo" accesskey="4">Font-2</v-link>
       </li>
       <li>
-        <v-link href="/background" accesskey="5">Background</v-link>
+        <v-link href="/background" accesskey="5">BackgroundOne</v-link>
       </li>
       <li>
-        <v-link href="/rotate" accesskey="6">rotate</v-link>
+        <v-link href="/backgroundTwo" accesskey="6">BackgroundTwo</v-link>
       </li>
-      <li>
+      <li v-show="false">
+        <v-link href="/rotate">rotate</v-link>
+      </li>
+      <li v-show="false">
         <v-link href="/triangleMove" accesskey="7">triangleMove</v-link>
       </li>
     </ul>

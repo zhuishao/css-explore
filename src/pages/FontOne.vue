@@ -66,7 +66,8 @@
     .text3{
         text-align: center;
         -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+        color:transparent;
+        /*-webkit-text-fill-color: transparent;*/
         -webkit-background-size: 200% 100%;
         background-color: aqua;
         background-image: linear-gradient(to right, red, orange, yellow, green, yellow, orange, red, orange, yellow, green, yellow, orange, red);
